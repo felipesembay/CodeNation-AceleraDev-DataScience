@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.4, pytest-5.2.1, py-1.8.0, pluggy-0.13.0 -- /home/felipe/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/felipe/codenation/data-science-4
+plugins: openfiles-0.4.0, doctestplus-0.4.0, remotedata-0.3.2, pylint-0.14.1, arraydiff-0.3
+collecting ... collected 7 items
+
+test_submit.py::test_q1 PASSED                                           [ 14%]
+test_submit.py::test_q2 PASSED                                           [ 28%]
+test_submit.py::test_q3 PASSED                                           [ 42%]
+test_submit.py::test_q4 PASSED                                           [ 57%]
+test_submit.py::test_q5 PASSED                                           [ 71%]
+test_submit.py::test_q6 PASSED                                           [ 85%]
+test_submit.py::test_q7 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+/home/felipe/anaconda3/lib/python3.7/site-packages/statsmodels/tools/_testing.py:19
+  /home/felipe/anaconda3/lib/python3.7/site-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+    import pandas.util.testing as tm
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+---- generated xml file: /home/felipe/codenation/data-science-4/output.xml -----
+======================== 7 passed, 1 warnings in 7.17s =========================
